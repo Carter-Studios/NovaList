@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid_container">
+        <!-- Notification container -->
+        <div id="notification" class="notification"></div>
+
+        <div class="header_card">
+            <h1>My Cristmas WishList</h1>
+        </div>
+
+        <!-- Add a unique data-id for each item -->
+        <div class="card" data-id="item001">
+            <h1>Test</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, voluptatem.</p>
+            <hr>
+            <p>Lorem, ipsum dolor.</p>
+            <button class="btn">Visit</button>
+            <!-- Add a specific 'reserve-btn' class -->
+            <button class="btn reserve-btn">Reserve</button>
+        </div>
+    </div>
+
+    <!-- Supabase SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
